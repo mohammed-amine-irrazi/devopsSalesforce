@@ -10,6 +10,6 @@ public with sharing class firstClass {
 
     public Integer addNumbers(Integer a,Integer b){
 
-        return a+b+1;
+        return a+b+3;
     }
 }
