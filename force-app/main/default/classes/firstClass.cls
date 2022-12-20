@@ -7,4 +7,9 @@ public with sharing class firstClass {
 
         System.debug("hello from the class");
     }
+
+    public Integer addNumbers(Integer a,Integer b){
+
+        return a+b+1;
+    }
 }
