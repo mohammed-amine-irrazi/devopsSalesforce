@@ -5,18 +5,23 @@ public with sharing class firstClass {
 
     public void createTrain(){
 
-        System.debug("hello from the class");
+        System.debug('hello from the class');
     }
 
     public Integer addNumbers(Integer a,Integer b){
 
         return a+b+10;
     }
+    
+    public Integer firstFunctionality(Integer a){
+
+        Integer func1 = 19;
+
+        return a+func1;
+    }
 
     public Integer secondFunctionality(Integer a){
-
         Integer func2 = 20;
-
         return a+func2;
     }
 }
