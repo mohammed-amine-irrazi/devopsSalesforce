@@ -12,11 +12,16 @@ public with sharing class firstClass {
 
         return a+b+10;
     }
-
+    
     public Integer firstFunctionality(Integer a){
 
         Integer func1 = 19;
 
         return a+func1;
+    }
+
+    public Integer secondFunctionality(Integer a){
+        Integer func2 = 20;
+        return a+func2;
     }
 }
